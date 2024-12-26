@@ -1,0 +1,46 @@
+body {
+  position: relative;
+  text-align: center;
+}
+
+.card {
+  width: 200px;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 5px;
+  position: absolute;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+img {
+  width: 150px;
+  height: 200px;
+}
+
+.card-1 {
+  background-color: turquoise;
+}
+
+.card-2 {
+  margin-top: 80px;
+  margin-left: 40px;
+  background-color: green;
+}
+
+.card-3 {
+  margin-top: 150px;
+  margin-left: 75px;
+  background-color: yellow;
+}
+
+.card-4 {
+  margin-top: 220px;
+  margin-left: 110px;
+  background-color: gray;
+}
+
+.card:hover {
+  z-index: 2;
+}
